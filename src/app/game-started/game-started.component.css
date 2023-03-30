@@ -1,0 +1,4 @@
+.time-and-points{
+    display: flex;
+    justify-content: space-between;
+}
