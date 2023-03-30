@@ -1,0 +1,38 @@
+.wrapper{
+    display:flex;
+    height:100vh;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    padding :20rem;
+}
+
+.play-title{
+    font-size:10rem;
+    animation: title-an 1500ms ease-in forwards alternate infinite;
+}
+
+.rules-container{
+    border: 1px solid black;
+    word-wrap: break-word;
+    border-radius: 10px;
+}
+
+.rules-container ul{
+   list-style-type: none; 
+   padding:3rem;
+}
+
+.row{
+    margin:1rem;
+}
+
+@keyframes title-an {
+   from{
+    transform: translateY(-0.5rem);
+   } 
+   to{
+    transform: translateY(0.5rem);
+   } 
+}

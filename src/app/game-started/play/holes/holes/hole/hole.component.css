@@ -1,0 +1,61 @@
+
+.mole-img-container{
+    position: absolute;
+    left:80px;
+    bottom:70px;
+    animation: mole-anime 150ms ease-out forwards;
+    z-index:10;
+}
+
+.mole-img{
+    height:200px;
+    width:300px;
+    border-radius:50px;
+}
+
+@keyframes mole-anime {
+    from{
+        transform: translateY(0rem);
+    }
+
+    to{
+        transform: translateY(-1rem);
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) { }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) { }
+
+@media only screen and (min-width: 480px) and (max-width: 768px) { }
+
+@media only screen and  (min-width:370px) and (max-width: 480px) {
+    .mole-img-container{
+        position: absolute;
+        left:38px;
+        bottom:0px;
+        
+    }
+    
+    .mole-img{
+        height:50px;
+        width:50px;
+        border-radius:10px;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 369px) {
+    .mole-img-container{
+        position: absolute;
+        left:21px;
+        bottom:-5px;
+        
+    }
+    
+    .mole-img{
+        height:50px;
+        width:50px;
+        border-radius:10px;
+    }
+}
+
